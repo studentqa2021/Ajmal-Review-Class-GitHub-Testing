@@ -1,0 +1,65 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2023-01-12T19:00:24.114Z",
+        "line": 7,
+        "name": "As a httpbing user, i need to validate send data with HTPP function",
+        "description": "",
+        "id": "testing-api-create-function;as-a-httpbing-user--i-need-to-validate-send-data-with-htpp-function",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1198360301,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "setup test data into jason \u0026 use post method",
+            "match": {
+              "location": "Stepdef.setup()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 347562900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "validate test cases",
+            "match": {
+              "location": "Stepdef.postTestcases()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Testing API create function",
+    "description": "",
+    "id": "testing-api-create-function",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/API%20Post%20Test.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

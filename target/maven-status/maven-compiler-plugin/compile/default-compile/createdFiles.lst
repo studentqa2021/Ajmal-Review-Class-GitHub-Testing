@@ -1,0 +1,5 @@
+com\curd\functions\test\CreateReviewFinal.class
+com\curd\functions\test\Create.class
+com\curd\functions\test\Delete.class
+com\curd\functions\test\Read.class
+com\curd\functions\test\Update.class
